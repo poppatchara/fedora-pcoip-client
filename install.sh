@@ -9,11 +9,11 @@ set -euo pipefail
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-PKGVER="25.10.2"
+PKGVER="26.05.2"
 UBUNTUVER="22.04"
-DEB_URL="https://dl.anyware.hp.com/DeAdBCiUYInHcSTy/pcoip-client/deb/ubuntu/pool/jammy/main/p/pc/pcoip-client_${PKGVER}-${UBUNTUVER}/pcoip-client_${PKGVER}-${UBUNTUVER}_amd64.deb"
-PROTOBUF_URL="http://se.archive.ubuntu.com/ubuntu/pool/main/p/protobuf/libprotobuf23_3.12.4-1ubuntu7_amd64.deb"
-DEB_SHA256="9138b29fe4e8352b0a472dd8b33ed9889b420fed4711aec0e9759ff74311d6e5"
+DEB_URL="https://dl.anyware.hp.com/pcoip-client/deb/ubuntu/pool/main/p/pcoip-client/pcoip-client_${PKGVER}-${UBUNTUVER}_amd64.deb"
+PROTOBUF_URL="http://archive.ubuntu.com/ubuntu/pool/main/p/protobuf/libprotobuf23_3.12.4-1ubuntu7_amd64.deb"
+DEB_SHA256="31afe83f6529b1e0af47069287b6c07efab111b1a7b1ff005366377d2b560232"
 PROTOBUF_SHA256="8c9942e9130ab7c343438b1b81603bdd86509d7e2a9cc877ae35a998dbf5e0a8"
 
 VENDOR_ROOT="/usr/lib64/pcoip-client"

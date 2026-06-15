@@ -8,7 +8,7 @@ Unofficial install script for the **HP Anyware Client** (formerly *Teradici PCoI
 
 ## What It Does
 
-- Downloads the official HP Anyware `.deb` (Ubuntu 22.04 build)
+- Downloads the official HP Anyware `.deb` (Ubuntu 22.04, version 26.05.2) from HP's apt repository
 - Extracts and installs to Fedora-native paths (`/usr/lib64/pcoip-client`)
 - Forces X11/XCB (drops broken Wayland Qt plugin)
 - Bundles Ubuntu `libprotobuf23` for ABI compatibility
