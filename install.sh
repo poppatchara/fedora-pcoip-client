@@ -57,6 +57,7 @@ DNF_DEPS=(
     glib2
     krb5-libs
     libarchive
+    bsdtar
     libcap
     libdrm
     libglvnd
