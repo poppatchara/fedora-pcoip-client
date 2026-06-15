@@ -56,6 +56,7 @@ DNF_DEPS=(
     freetype
     glib2
     krb5-libs
+    libarchive
     libcap
     libdrm
     libglvnd
